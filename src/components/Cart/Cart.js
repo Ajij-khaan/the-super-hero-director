@@ -2,6 +2,8 @@ import React from 'react';
 
 const Cart = (props) => {
 
+    //Getting cart from event handler and update the price 
+
     const { cart } = props;
 
     let total = 0;
@@ -11,12 +13,13 @@ const Cart = (props) => {
     }
 
     return (
+        //Creating My Cart UI
         <div>
-            <div className="card position-fixed">
+            <div className="card">
                 <div className="card-header fw-bold-auto"> My Cart </div>
                 <div className="card-body">
                     <h5 className="text-start">Totad Fish: {props.cart.length}</h5>
-                    <h5 className="text-start">Total COst: {total}</h5>
+                    <h5 className="text-start">Total Cosst: {total}</h5>
 
                 </div>
             </div>
