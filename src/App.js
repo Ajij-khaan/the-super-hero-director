@@ -1,20 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
+import Body from './components/Body/Body';
+import Header from './components/Header/Header';
+
 
 function App() {
 
-  useEffect(() => {
-    fetch('./fakeData.JSON')
-      .then(res => res.json())
-      .then(data => console.log(data))
-  }, [])
 
   return (
     <div className="App">
-
-
-
+      <Header></Header>
+      <Body></Body>
     </div>
   );
 }
