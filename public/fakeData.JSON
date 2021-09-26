@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Peacock",
+        "size": 6,
+        "FoodValue": "Good",
+        "Habitats": "River, Lake",
+        "price": 10,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-peacock.png"
+    },
+    {
+        "name": "Spotted",
+        "size": 1,
+        "FoodValue": "Good",
+        "Habitats": "Lake",
+        "price": 2,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-spotted.png"
+    },
+    {
+        "name": "Largemouth",
+        "size": 2,
+        "FoodValue": "Good",
+        "Habitats": "River, Lake",
+        "price": 4,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-largemouth.png"
+    },
+    {
+        "name": "Australian",
+        "size": 3,
+        "FoodValue": "Excellent",
+        "Habitats": "River",
+        "price": 7,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-australian.png"
+    },
+    {
+        "name": "Smallmouth",
+        "size": 6,
+        "FoodValue": "Good",
+        "Habitats": "Lake, River",
+        "price": 10,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-smallmouth.png"
+    },
+    {
+        "name": "Peacock",
+        "size": 6,
+        "FoodValue": "Good",
+        "Habitats": "River, Lake",
+        "price": 14,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-peacock.png"
+    },
+    {
+        "name": "White",
+        "size": 12,
+        "FoodValue": "Good",
+        "Habitats": "Lake, River",
+        "price": 30,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-white.png"
+    },
+    {
+        "name": "Rockfish",
+        "size": 5,
+        "FoodValue": "Excellent",
+        "Habitats": "River, Lake",
+        "price": 17,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/black-rockfish.png"
+    },
+    {
+        "name": "Bream Black",
+        "size": 6,
+        "FoodValue": "Excellent",
+        "Habitats": "Inshore, River",
+        "price": 29,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-black.png"
+    },
+    {
+        "name": "Bream Common.",
+        "size": 6,
+        "FoodValue": "Average",
+        "Habitats": "Lake, River",
+        "price": 10,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-common.png"
+    },
+    {
+        "name": "Grouper Red",
+        "size": 3,
+        "FoodValue": "Good",
+        "Habitats": "Inshore, Nearshore",
+        "price": 14,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/grouper-red.png"
+    },
+    {
+        "name": "Bream Fingermark",
+        "size": 90,
+        "FoodValue": "GoExcellentod",
+        "Habitats": "Nearshore, Reef, River",
+        "price": 290,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-fingermark.png"
+    },
+    {
+        "name": "tuna fish",
+        "size": 2,
+        "FoodValue": "Good",
+        "Habitats": "Nearshore, Offshore",
+        "price": 24,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/california-sheephead.png"
+    },
+    {
+        "name": "Bullhead",
+        "size": 1,
+        "FoodValue": "Good",
+        "Habitats": "Lake, Backcountry",
+        "price": 17,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bullhead.png"
+    },
+    {
+        "name": "Cod Breaksea",
+        "size": 5,
+        "FoodValue": "Excellent",
+        "Habitats": "Offshore, Reef",
+        "price": 36,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/cod-breaksea.png"
+    },
+    {
+        "name": "Golden Dorado",
+        "size": 6,
+        "FoodValue": "Excellent",
+        "Habitats": "River",
+        "price": 14,
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/golden-dorado.png"
+    }
+]
