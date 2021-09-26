@@ -6,7 +6,8 @@
         "FoodValue": "Good",
         "Habitats": "River, Lake",
         "price": 10,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-peacock.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-peacock.png",
+        "details": "https://fishingbooker.com/fish/bass-peacock"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "FoodValue": "Good",
         "Habitats": "Lake",
         "price": 2,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-spotted.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-spotted.png",
+        "details": "https://fishingbooker.com/fish/bass-spotted"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "FoodValue": "Good",
         "Habitats": "River, Lake",
         "price": 4,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-largemouth.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-largemouth.png",
+        "details": "https://fishingbooker.com/fish/bass-largemouth"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "FoodValue": "Excellent",
         "Habitats": "River",
         "price": 7,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-australian.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-australian.png",
+        "details": "https://fishingbooker.com/fish/bass-australian"
     },
     {
         "id": 5,
@@ -42,16 +46,18 @@
         "FoodValue": "Good",
         "Habitats": "Lake, River",
         "price": 10,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-smallmouth.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-smallmouth.png",
+        "details": "https://fishingbooker.com/fish/bass-smallmouth"
     },
     {
         "id": 6,
-        "name": "Peacock",
+        "name": "Nannygai",
         "size": 6,
         "FoodValue": "Good",
         "Habitats": "River, Lake",
         "price": 14,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-peacock.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/nannygai.png",
+        "details": "https://fishingbooker.com/fish/nannygai"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "FoodValue": "Good",
         "Habitats": "Lake, River",
         "price": 30,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-white.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bass-white.png",
+        "details": "https://fishingbooker.com/fish/bass-white"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "FoodValue": "Excellent",
         "Habitats": "River, Lake",
         "price": 17,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/black-rockfish.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/black-rockfish.png",
+        "details": "https://fishingbooker.com/fish/black-rockfish"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "FoodValue": "Excellent",
         "Habitats": "Inshore, River",
         "price": 29,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-black.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-black.png",
+        "details": "https://fishingbooker.com/fish/bream-black"
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "FoodValue": "Average",
         "Habitats": "Lake, River",
         "price": 10,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-common.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-common.png",
+        "details": "https://fishingbooker.com/fish/bream-common"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "FoodValue": "Good",
         "Habitats": "Inshore, Nearshore",
         "price": 14,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/grouper-red.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/grouper-red.png",
+        "details": "https://fishingbooker.com/fish/grouper-red"
     },
     {
         "id": 12,
@@ -105,16 +116,18 @@
         "FoodValue": "GoExcellentod",
         "Habitats": "Nearshore, Reef, River",
         "price": 290,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-fingermark.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bream-fingermark.png",
+        "details": "https://fishingbooker.com/fish/bream-fingermark"
     },
     {
         "id": 13,
-        "name": "tuna fish",
+        "name": "Hogfish",
         "size": 2,
         "FoodValue": "Good",
         "Habitats": "Nearshore, Offshore",
         "price": 24,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/california-sheephead.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/hogfish.png",
+        "details": "https://fishingbooker.com/fish/hogfish"
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "FoodValue": "Good",
         "Habitats": "Lake, Backcountry",
         "price": 17,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bullhead.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/bullhead.png",
+        "details": "https://fishingbooker.com/fish/bullhead"
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "FoodValue": "Excellent",
         "Habitats": "Offshore, Reef",
         "price": 36,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/cod-breaksea.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/cod-breaksea.png",
+        "details": "https://fishingbooker.com/fish/cod-breaksea"
     },
     {
         "id": 16,
@@ -141,6 +156,7 @@
         "FoodValue": "Excellent",
         "Habitats": "River",
         "price": 14,
-        "image": "https://static.fishingbooker.com/public/images/fish/275x160/golden-dorado.png"
+        "image": "https://static.fishingbooker.com/public/images/fish/275x160/golden-dorado.png",
+        "details": "https://fishingbooker.com/fish/golden-dorado"
     }
 ]
