@@ -1,39 +1,27 @@
 import React from 'react';
-import './Fish.css'
 
-const Fish = (porps) => {
+const Cart = (props) => {
 
-    console.log('porps')
+    const { cart } = props;
 
-    const { id, name, size, FoodValue, Habitats, price, image, details } = porps.fish;
+    let total = 0;
+    for (const product of cart) {
+        total = total + product.price;
+
+    }
 
     return (
-        <div className="col">
-            <div className="card h-100">
-                <img className="bg-fish" src={image} alt="" />
-                <div className="card-body ">
-                    <h5 className="card-title">Fish ID: {id}</h5>
-                    <h5 className="card-title">Name: {name}</h5>
-                    <h5 className="card-title">Size: {size} lbs</h5>
-                    <h5 className="card-title">Food Value: {FoodValue}</h5>
-                    <h5 className="card-title">Habitats: {Habitats}</h5>
-                    <h5 className="card-title">Price: {price}$</h5>
-                    <div className="d-flex flex-column align-items-center">
-                        <div className="border rounded-pill border-primary w-75">
-                            <i className="fas fa-angle-double-right"></i>
-                            <a href={details} className="text-muted px-2 py-2 text-decoration-none">   More Details </a>
-                        </div>
-                        <div className="border rounded-pill border-primary w-75 mt-2">
-                            {/* <i className="fas fa-shopping-cart"></i> */}
-                            <button
-                                onClick={() => porps.handleMyCart(porps.fish)}
-                                className="text-muted px-2 py-2">   Add To Cart </button>
-                        </div>
-                    </div>
+        <div>
+            <div className="card position-fixed">
+                <div className="card-header fw-bold-auto"> My Cart </div>
+                <div className="card-body">
+                    <h5 className="text-start">Totad Fish: {props.cart.length}</h5>
+                    <h5 className="text-start">Total COst: {total}</h5>
+
                 </div>
             </div>
         </div>
     );
 };
 
-export default Fish;
+export default Cart;

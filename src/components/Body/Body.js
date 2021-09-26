@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Fish from '../Fish/Fish';
 
 const Body = () => {
@@ -34,14 +35,15 @@ const Body = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card">
+                    <Cart cart={cart}></Cart>
+                    {/* <div className="card">
                         <div className="card-header fw-bold"> My Cart </div>
                         <div className="card-body">
                             <h5 className="text-start">Totad Fish: {cart.length}</h5>
                             <h5 className="text-start">Total COst: </h5>
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

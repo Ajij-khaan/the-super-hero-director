@@ -3,7 +3,7 @@ import './Fish.css'
 
 const Fish = (porps) => {
 
-    console.log('porps')
+    // console.log('porps')
 
     const { id, name, size, FoodValue, Habitats, price, image, details } = porps.fish;
 
@@ -18,17 +18,16 @@ const Fish = (porps) => {
                     <h5 className="card-title">Food Value: {FoodValue}</h5>
                     <h5 className="card-title">Habitats: {Habitats}</h5>
                     <h5 className="card-title">Price: {price}$</h5>
-                    <div className="d-flex flex-column align-items-center">
-                        <div className="border rounded-pill border-primary w-75">
+                    <div className="d-flex flex-column align-items-center ">
+                        <button className="ms-2 text-muted px-3 py-2 border-0 rounded-pill">
                             <i className="fas fa-angle-double-right"></i>
-                            <a href={details} className="text-muted px-2 py-2 text-decoration-none">   More Details </a>
-                        </div>
-                        <div className="border rounded-pill border-primary w-75 mt-2">
-                            {/* <i className="fas fa-shopping-cart"></i> */}
-                            <button
-                                onClick={() => porps.handleMyCart(porps.fish)}
-                                className="text-muted px-2 py-2">   Add To Cart </button>
-                        </div>
+                            <a href={details} className="text-dark text-decoration-none">   More Details </a>
+                        </button>
+
+                        <button onClick={() => porps.handleMyCart(porps.fish)} className="mt-2 ms-2 text-muted px-3 py-2 border-0 rounded-pill">
+                            <i className="fas fa-shopping-cart"></i>
+                            <a className="text-dark text-decoration-none">   Add To Cart </a>
+                        </button>
                     </div>
                 </div>
             </div>
